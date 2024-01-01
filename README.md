@@ -8,6 +8,15 @@ These [KiCad](https://www.kicad.org/) projects can be manufactured and assembled
 * 0402 minimum package size
 * Single sided part placement (SMT/Thru-hole)
 * No Gold Fingers, castellated Holes, or edge Plating
+* Order in QTY 30 or 50, depending on color
+
+It is also recommended to manually [add tooling holes](https://jlcpcb.com/help/article/47-How-to-add-tooling-holes-for-PCB-assembly-order). If you don't, then JLCPCB's engineers will add the holes themselves and validate their placement with you before manufacturing. The requirements are:
+
+1. Two or three tooling holes should be added on the PCB, they should be placed in opposite corners of the PCB and as far apart from one another as practical.
+1. Tooling holes should be 1.152mm(45.4mil) round non-plated holes with 0.148mm solder mask expansion.
+    > A `tooling_hole` footprint is provided in the `sao` footprint library.
+1. Tooling holes are only required for PCB assembly orders.
+1. Please try to add tooling holes on empty space and keep them away from traces. If there is no enough room, you can add them to the copper area.
 
 ## squarewavebird_sao
 
