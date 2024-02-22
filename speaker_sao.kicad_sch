@@ -875,7 +875,7 @@
     (property "Value" "TestPoint" (at 142.875 121.285 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 144.78 124.46 0)
+    (property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" (at 144.78 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 144.78 124.46 0)
@@ -900,7 +900,7 @@
     (property "Value" "TestPoint" (at 147.955 141.605 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 149.86 144.78 0)
+    (property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" (at 149.86 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 149.86 144.78 0)
@@ -925,7 +925,7 @@
     (property "Value" "TestPoint" (at 121.285 158.115 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 119.38 154.94 0)
+    (property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" (at 119.38 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 119.38 154.94 0)
@@ -950,7 +950,7 @@
     (property "Value" "TestPoint" (at 145.415 123.825 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 147.32 127 0)
+    (property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" (at 147.32 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 147.32 127 0)
@@ -1013,8 +1013,8 @@
     (property "LCSC" "" (at 142.24 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid d36df5d4-c2df-408a-a5b4-15face056320))
     (pin "1" (uuid 411bf707-3e30-4b5c-9da0-120edc1da517))
+    (pin "2" (uuid d36df5d4-c2df-408a-a5b4-15face056320))
     (instances
       (project "speaker_sao"
         (path "/073b0f7e-597a-4770-9c67-dbafa65cbb6f"
@@ -1042,8 +1042,8 @@
     (property "LCSC" "C530532" (at 149.86 122.555 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid d1a74a94-fec7-49da-930a-a6086ebcf933))
     (pin "1" (uuid 586ab578-1b7b-454f-91f6-d82974f2430a))
+    (pin "2" (uuid d1a74a94-fec7-49da-930a-a6086ebcf933))
     (instances
       (project "speaker_sao"
         (path "/073b0f7e-597a-4770-9c67-dbafa65cbb6f"
@@ -1062,7 +1062,7 @@
     (property "Value" "TestPoint" (at 137.795 144.145 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 139.7 147.32 0)
+    (property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" (at 139.7 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 139.7 147.32 0)
@@ -1087,7 +1087,7 @@
     (property "Value" "TestPoint" (at 130.175 130.175 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 127 132.08 0)
+    (property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" (at 127 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 127 132.08 0)
@@ -1259,11 +1259,11 @@
     (property "LCSC" "C16684" (at 149.86 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "5" (uuid 77f14dcb-2081-4c5b-8c23-91b78e42b05c))
-    (pin "2" (uuid 6521af5a-4271-4ed9-8a37-c2f1a2d8c8f3))
-    (pin "4" (uuid 8cce73de-af87-4a33-aafc-cd15d6ddee9b))
     (pin "1" (uuid a33df78d-434d-4ffa-a17c-8d07b4bf605b))
+    (pin "2" (uuid 6521af5a-4271-4ed9-8a37-c2f1a2d8c8f3))
     (pin "3" (uuid 459eaeca-2d5d-4e1a-86a8-ab57f66169b9))
+    (pin "4" (uuid 8cce73de-af87-4a33-aafc-cd15d6ddee9b))
+    (pin "5" (uuid 77f14dcb-2081-4c5b-8c23-91b78e42b05c))
     (instances
       (project "speaker_sao"
         (path "/073b0f7e-597a-4770-9c67-dbafa65cbb6f"
@@ -1318,10 +1318,10 @@
     )
     (pin "1" (uuid 41280362-89eb-42b8-b75a-22b78b3e3cc6))
     (pin "2" (uuid 7bd24510-5fb5-430d-9bd1-c244eccd2dc7))
-    (pin "6" (uuid f2ff5e7f-c04e-495e-a41c-cc671deac762))
-    (pin "4" (uuid 31efaac6-be9f-401a-b8c2-19fb21442757))
     (pin "3" (uuid 3887d685-e498-4315-a655-3f4d50eee191))
+    (pin "4" (uuid 31efaac6-be9f-401a-b8c2-19fb21442757))
     (pin "5" (uuid 81bd6648-64e3-4e51-bd11-e667b69f90ae))
+    (pin "6" (uuid f2ff5e7f-c04e-495e-a41c-cc671deac762))
     (instances
       (project "speaker_sao"
         (path "/073b0f7e-597a-4770-9c67-dbafa65cbb6f"
@@ -1340,7 +1340,7 @@
     (property "Value" "TestPoint" (at 107.315 121.285 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 109.22 124.46 0)
+    (property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" (at 109.22 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 109.22 124.46 0)
@@ -1365,7 +1365,7 @@
     (property "Value" "TestPoint" (at 150.495 160.655 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 147.32 162.56 0)
+    (property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" (at 147.32 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 147.32 162.56 0)
@@ -1399,8 +1399,8 @@
     (property "LCSC" "" (at 132.08 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 9bc087c4-16fe-42b1-acc0-6d419f0affc1))
     (pin "1" (uuid caf40f10-fdf5-4720-8448-6dfaec411646))
+    (pin "2" (uuid 9bc087c4-16fe-42b1-acc0-6d419f0affc1))
     (instances
       (project "speaker_sao"
         (path "/073b0f7e-597a-4770-9c67-dbafa65cbb6f"
@@ -1498,7 +1498,7 @@
     (property "Value" "TestPoint" (at 123.825 113.665 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 127 111.76 0)
+    (property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" (at 127 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 127 111.76 0)
@@ -1548,7 +1548,7 @@
     (property "Value" "TestPoint" (at 121.285 108.585 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 124.46 106.68 0)
+    (property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" (at 124.46 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 124.46 106.68 0)
@@ -1582,8 +1582,8 @@
     (property "LCSC" "" (at 132.08 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid e92f6ee9-ba39-401d-90bf-d71ba9f0c476))
     (pin "1" (uuid a64653b9-3021-47f3-9e72-bf2f5cf7858b))
+    (pin "2" (uuid e92f6ee9-ba39-401d-90bf-d71ba9f0c476))
     (instances
       (project "speaker_sao"
         (path "/073b0f7e-597a-4770-9c67-dbafa65cbb6f"
@@ -1611,14 +1611,14 @@
     (property "LCSC" "C134135" (at 116.84 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "5" (uuid a2a330f3-3903-405a-9c9c-87ed209aa3e0))
-    (pin "3" (uuid ff15f228-2845-4240-b403-999983e3eb47))
-    (pin "6" (uuid bb0c9882-5dda-4da7-9023-f499b0030be5))
-    (pin "2" (uuid 03d652bf-3887-4c2e-884f-13555692de65))
-    (pin "4" (uuid 745ba7bf-d0ab-41a1-81c4-52b867df8926))
-    (pin "8" (uuid cc888680-431e-454b-9e48-fb34604c87ac))
     (pin "1" (uuid 25f176b7-5b5b-4692-8505-a37c9ca80e08))
+    (pin "2" (uuid 03d652bf-3887-4c2e-884f-13555692de65))
+    (pin "3" (uuid ff15f228-2845-4240-b403-999983e3eb47))
+    (pin "4" (uuid 745ba7bf-d0ab-41a1-81c4-52b867df8926))
+    (pin "5" (uuid a2a330f3-3903-405a-9c9c-87ed209aa3e0))
+    (pin "6" (uuid bb0c9882-5dda-4da7-9023-f499b0030be5))
     (pin "7" (uuid 1c703b1b-5706-40aa-a733-c1d665d092bc))
+    (pin "8" (uuid cc888680-431e-454b-9e48-fb34604c87ac))
     (instances
       (project "speaker_sao"
         (path "/073b0f7e-597a-4770-9c67-dbafa65cbb6f"

@@ -1,6 +1,6 @@
 (footprint "RK10J11E0034" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (attr smd)
+  (attr through_hole)
   (fp_text reference "REF**" (at -7.62 7.62 unlocked) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp c963e4e3-6127-4845-acde-b262b0bb2f59)
