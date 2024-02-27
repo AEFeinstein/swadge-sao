@@ -17,8 +17,8 @@
     (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp 65589cd8-43c0-4b6c-8ebb-fbec810a2903))
   (fp_circle (center 0 0) (end 11.5 0)
     (stroke (width 0.1) (type default)) (fill none) (layer "F.CrtYd") (tstamp 9f87f1c2-9406-47f6-9fcd-767b293a9866))
-  (pad "1" thru_hole circle (at -5 0 180) (size 1.6 1.6) (drill 1.2) (layers "*.Cu" "*.Paste" "*.Mask") (tstamp 7f600051-3325-4f50-b8a0-713b8d9f2ad3))
-  (pad "2" thru_hole circle (at 5 0 180) (size 1.6 1.6) (drill 1.2) (layers "*.Cu" "*.Paste" "*.Mask") (tstamp 65cac6db-15d3-4369-9594-8827abc331dd))
+  (pad "1" thru_hole circle (at -5 0 180) (size 1.9 1.9) (drill 1.4) (layers "*.Cu" "*.Mask") (tstamp 7f600051-3325-4f50-b8a0-713b8d9f2ad3))
+  (pad "2" thru_hole circle (at 5 0 180) (size 1.9 1.9) (drill 1.4) (layers "*.Cu" "*.Mask") (tstamp 65cac6db-15d3-4369-9594-8827abc331dd))
   (model "${KIPRJMOD}/sao.3dshapes/2308_color.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
