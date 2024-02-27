@@ -3327,7 +3327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2306301733_Chinocera-HGC1206R5107K6R3NSPJ_C7432783.pdf"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206222045_Murata-Electronics-GRM31CR60J107KEA8L_C3038553.pdf"
 			(at 162.56 137.16 0)
 			(effects
 				(font
@@ -3345,7 +3345,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C7432783"
+		(property "LCSC" "C3038553"
 			(at 160.02 137.16 0)
 			(effects
 				(font
@@ -4951,7 +4951,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2306301733_Chinocera-HGC1206R5107K6R3NSPJ_C7432783.pdf"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206222045_Murata-Electronics-GRM31CR60J107KEA8L_C3038553.pdf"
 			(at 162.56 119.38 0)
 			(effects
 				(font
@@ -4969,7 +4969,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C7432783"
+		(property "LCSC" "C3038553"
 			(at 160.02 119.38 0)
 			(effects
 				(font

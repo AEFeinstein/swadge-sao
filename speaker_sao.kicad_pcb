@@ -118,9 +118,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "prod/")
 		)
 	)
 	(net 0 "")
@@ -1142,7 +1142,7 @@
 			(at -1.475 0 180)
 			(size 1.15 1.8)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.217391)
+			(roundrect_rratio 0.2173913043)
 			(net 10 "TP12")
 			(pintype "passive")
 			(teardrops
@@ -1162,7 +1162,7 @@
 			(at 1.475 0 180)
 			(size 1.15 1.8)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.217391)
+			(roundrect_rratio 0.2173913043)
 			(net 11 "TP6")
 			(pintype "passive")
 			(teardrops
@@ -3424,7 +3424,7 @@
 			(at -1.475 0 180)
 			(size 1.15 1.8)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.217391)
+			(roundrect_rratio 0.2173913043)
 			(net 12 "TP13")
 			(pintype "passive")
 			(teardrops
@@ -3444,7 +3444,7 @@
 			(at 1.475 0 180)
 			(size 1.15 1.8)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.217391)
+			(roundrect_rratio 0.2173913043)
 			(net 11 "TP6")
 			(pintype "passive")
 			(teardrops
