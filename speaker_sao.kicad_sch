@@ -289,6 +289,165 @@
 				)
 			)
 		)
+		(symbol "Device:C_Polarized_US"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized_US"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_US_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.778) (xy -1.27 2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.032 -1.27)
+					(mid 0 -0.5572)
+					(end -2.032 -1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Polarized_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 3.302)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_names
@@ -1977,22 +2136,28 @@
 		(uuid "080a480e-ca3b-4e68-932f-d62399732564")
 	)
 	(junction
+		(at 165.1 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16ab5a15-b5d3-4c98-a32f-8f32ceb9dd63")
+	)
+	(junction
 		(at 165.1 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1a3bdfe9-04b2-4298-a5d1-9394af797b07")
 	)
 	(junction
+		(at 172.72 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c476b92-8f4e-43c6-be2a-32c5c2e41632")
+	)
+	(junction
 		(at 116.84 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "435f55c3-fd9c-4a83-a7ca-1903f8977c63")
-	)
-	(junction
-		(at 172.72 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "547e13e8-941e-4d13-af85-26acc4f7b876")
 	)
 	(junction
 		(at 144.78 91.44)
@@ -2013,12 +2178,6 @@
 		(uuid "82733aca-a7b8-41e7-974c-519be1fbacd7")
 	)
 	(junction
-		(at 165.1 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8e0b1485-e0a9-4a22-8055-bcf9df453f35")
-	)
-	(junction
 		(at 160.02 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2028,7 +2187,7 @@
 		(at 172.72 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b28537fe-a1e7-4d88-92d4-ba3bc2d38e43")
+		(uuid "a7583426-57b4-44bf-83da-f9618a44b85d")
 	)
 	(no_connect
 		(at 193.04 124.46)
@@ -2254,6 +2413,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 119.38) (xy 165.1 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5ab1a10-a0c5-4d83-93dd-cd3509311f31")
+	)
+	(wire
+		(pts
 			(xy 143.51 109.22) (xy 142.24 109.22)
 		)
 		(stroke
@@ -2371,16 +2540,6 @@
 			(type default)
 		)
 		(uuid "f4d86218-937f-4797-a687-8741ea1fbf29")
-	)
-	(wire
-		(pts
-			(xy 165.1 119.38) (xy 165.1 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb4d267d-e8c0-4394-9c75-1c3a068461a1")
 	)
 	(wire
 		(pts
@@ -3293,83 +3452,6 @@
 		)
 	)
 	(symbol
-		(lib_id "sao:C")
-		(at 168.91 137.16 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "21508332-6ddc-41fb-8033-1a4071885da5")
-		(property "Reference" "C5"
-			(at 168.91 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100µF"
-			(at 168.91 140.97 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 165.1 136.1948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206222045_Murata-Electronics-GRM31CR60J107KEA8L_C3038553.pdf"
-			(at 162.56 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 168.91 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C3038553"
-			(at 160.02 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c44611a6-6440-495f-93f5-ea764646dad9")
-		)
-		(pin "2"
-			(uuid "08de56bc-618d-49e9-9b19-a83038c9ec5b")
-		)
-		(instances
-			(project "speaker_sao"
-				(path "/073b0f7e-597a-4770-9c67-dbafa65cbb6f"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "sao:Tooling_Hole")
 		(at 191.77 92.71 0)
 		(unit 1)
@@ -3661,6 +3743,82 @@
 			(project "speaker_sao"
 				(path "/073b0f7e-597a-4770-9c67-dbafa65cbb6f"
 					(reference "LS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_US")
+		(at 168.91 137.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "37b25741-6819-4c4b-b1b7-e1f196da2811")
+		(property "Reference" "C5"
+			(at 168.91 133.858 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100µF"
+			(at 168.148 140.716 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T"
+			(at 168.91 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810010411_CEC-Shenzhen-Zhenhua-XinYun-Elec-CA45-B-6-3V-100uF-K_C129289.pdf"
+			(at 168.91 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, US symbol"
+			(at 168.91 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C129289"
+			(at 168.91 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f18386db-b577-4f25-a978-a50c5397bb7e")
+		)
+		(pin "2"
+			(uuid "a9f06df4-30c9-4f07-927f-133456f077c7")
+		)
+		(instances
+			(project "speaker_sao"
+				(path "/073b0f7e-597a-4770-9c67-dbafa65cbb6f"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -4488,6 +4646,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized_US")
+		(at 168.91 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9fdfa0c1-55ae-4f08-9316-ea7e57c07a63")
+		(property "Reference" "C4"
+			(at 168.91 116.078 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100µF"
+			(at 168.402 122.682 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T"
+			(at 168.91 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810010411_CEC-Shenzhen-Zhenhua-XinYun-Elec-CA45-B-6-3V-100uF-K_C129289.pdf"
+			(at 168.91 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, US symbol"
+			(at 168.91 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C129289"
+			(at 168.91 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7be5b2f-ed5a-4174-98b0-58996ee6d60b")
+		)
+		(pin "2"
+			(uuid "962174ad-9b4d-40df-9dc6-4eb0f797545e")
+		)
+		(instances
+			(project "speaker_sao"
+				(path "/073b0f7e-597a-4770-9c67-dbafa65cbb6f"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDD")
 		(at 116.84 83.82 0)
 		(unit 1)
@@ -4911,83 +5145,6 @@
 			(project "speaker_sao"
 				(path "/073b0f7e-597a-4770-9c67-dbafa65cbb6f"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "sao:C")
-		(at 168.91 119.38 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d870fdb3-3ba1-467b-9310-ab4ce0e823ac")
-		(property "Reference" "C4"
-			(at 168.91 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100µF"
-			(at 168.91 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 165.1 118.4148 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206222045_Murata-Electronics-GRM31CR60J107KEA8L_C3038553.pdf"
-			(at 162.56 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 168.91 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C3038553"
-			(at 160.02 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3bde2975-988f-4534-84bb-32b3878dd4bd")
-		)
-		(pin "2"
-			(uuid "8bdf5713-52a2-4615-b7d2-b185e4ace2a5")
-		)
-		(instances
-			(project "speaker_sao"
-				(path "/073b0f7e-597a-4770-9c67-dbafa65cbb6f"
-					(reference "C4")
 					(unit 1)
 				)
 			)
