@@ -558,7 +558,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R6"
-			(at 0 1.5 360)
+			(at 0 1.5 0)
 			(layer "F.SilkS")
 			(uuid "3463732c-930a-4f6a-93eb-bb864efb7e71")
 			(effects
@@ -569,7 +569,7 @@
 			)
 		)
 		(property "Value" "150Ω"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "c8ff4487-a823-4d27-ad03-7e305828d689")
 			(effects
@@ -616,7 +616,7 @@
 			)
 		)
 		(property "LCSC" "C22808"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9c1c1d52-7787-4279-99d3-2ef47c49e1e9")
@@ -733,7 +733,7 @@
 			(uuid "d1eee367-6274-4865-81e1-7f4ada2f7dfd")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "9513e814-55e6-4912-b1ed-0cdf9fea4a95")
 			(effects
@@ -953,7 +953,7 @@
 		(descr "Tantalum Capacitor SMD Kemet-T (3528-12 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor tantalum")
 		(property "Reference" "C4"
-			(at -1.57 -2.35 360)
+			(at -1.57 -2.35 0)
 			(layer "F.SilkS")
 			(uuid "af7c8f75-736e-46ec-9724-b24072520f60")
 			(effects
@@ -964,7 +964,7 @@
 			)
 		)
 		(property "Value" "100µF"
-			(at 0 2.35 360)
+			(at 0 2.35 0)
 			(layer "F.Fab")
 			(uuid "99525526-84b9-48f3-9a62-2a77b638ba76")
 			(effects
@@ -1011,7 +1011,7 @@
 			)
 		)
 		(property "LCSC" "C129289"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8f146e65-485d-45a0-943e-b82700c8304a")
@@ -1148,7 +1148,7 @@
 			(uuid "777bfe11-a8e2-4145-90a7-91f543ddfeee")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "a69447a6-a64b-425c-a2d6-6d3df775b99a")
 			(effects
@@ -1162,7 +1162,7 @@
 			(at -1.5375 0)
 			(size 1.325 2.35)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.188679)
+			(roundrect_rratio 0.1886792453)
 			(net 11 "TP6")
 			(pintype "passive")
 			(teardrops
@@ -1182,7 +1182,7 @@
 			(at 1.5375 0)
 			(size 1.325 2.35)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.188679)
+			(roundrect_rratio 0.1886792453)
 			(net 10 "TP12")
 			(pintype "passive")
 			(teardrops
@@ -3257,7 +3257,7 @@
 		(descr "Tantalum Capacitor SMD Kemet-T (3528-12 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor tantalum")
 		(property "Reference" "C5"
-			(at -1.57 2.46 360)
+			(at -1.57 2.46 0)
 			(layer "F.SilkS")
 			(uuid "3c111537-21f8-44ad-9cd5-65ba166cb3e0")
 			(effects
@@ -3268,7 +3268,7 @@
 			)
 		)
 		(property "Value" "100µF"
-			(at 0 2.35 360)
+			(at 0 2.35 0)
 			(layer "F.Fab")
 			(uuid "2f0681cb-c72d-4e1a-8937-24eee7c45e4e")
 			(effects
@@ -3315,7 +3315,7 @@
 			)
 		)
 		(property "LCSC" "C129289"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7ce81a33-2a3c-481b-b5ee-3bd77bbf4971")
@@ -3452,7 +3452,7 @@
 			(uuid "d56aa346-2d5c-406d-bb04-4f8d79e03a75")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "9c496cf3-1a2d-4e9f-bf80-8e379f043bb7")
 			(effects
@@ -3466,7 +3466,7 @@
 			(at -1.5375 0)
 			(size 1.325 2.35)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.188679)
+			(roundrect_rratio 0.1886792453)
 			(net 11 "TP6")
 			(pintype "passive")
 			(teardrops
@@ -3486,7 +3486,7 @@
 			(at 1.5375 0)
 			(size 1.325 2.35)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.188679)
+			(roundrect_rratio 0.1886792453)
 			(net 12 "TP13")
 			(pintype "passive")
 			(teardrops
